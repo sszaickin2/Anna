@@ -70,12 +70,12 @@ h6 {
 }
 address {
 	font-style: normal;
-}@font-face {font-family: Inter;font-display: swap;src: url("../assets/fonts/Inter-Regular.woff2") format("woff2");font-weight: 400;font-style: normal;}
-@font-face {font-family: Inter;font-display: swap;src: url("../assets/fonts/Inter-Bold.woff2") format("woff2");font-weight: 700;font-style: normal;}
+}@font-face {font-family: Inter;font-display: swap;src: url("/Anna/assets/fonts/Inter-Regular.woff2") format("woff2");font-weight: 400;font-style: normal;}
+@font-face {font-family: Inter;font-display: swap;src: url("/Anna/assets/fonts/Inter-Bold.woff2") format("woff2");font-weight: 700;font-style: normal;}
 @font-face { 
 	font-family: "iconfont"; 
 	font-display: swap;
-	src: url("../assets/fonts/iconfont.woff2?f0845c62d20a3d067509b7dbb55fc39e") format("woff2"); 
+	src: url("/Anna/assets/fonts/iconfont.woff2?f0845c62d20a3d067509b7dbb55fc39e") format("woff2"); 
 } 
 [class*="--icon-"]::before{
 	font-family: iconfont; 
@@ -243,7 +243,7 @@ section.tms._fullpage-next-protion {
 }
 .tms::before {
   left: 0;
-  background: url("../assets/img/tms-background.webp") center/cover no-repeat;
+  background: url("/Anna/assets/img/tms-background.jpg") center/cover no-repeat;
 }
 .tms::after {
   right: 0;
@@ -823,7 +823,7 @@ section.tms._fullpage-next-protion {
 .cases::before {
   left: 0;
   width: calc(50% + 0.0625rem);
-  background: url("../assets/img/cases-background.webp") center/cover no-repeat;
+  background: url("/Anna/assets/img/cases-background.jpg") center/cover no-repeat;
 }
 .cases::after {
   right: 0;
@@ -1125,7 +1125,7 @@ body::after {
     width: 100vw;
     z-index: 0;
     pointer-events: none;
-    background: url("../assets/img/tms-background.webp") center/cover no-repeat;
+    background: url("/Anna/assets/img/tms-background.jpg") center/cover no-repeat;
   }
   .tms__tvip::before {
     content: "";
@@ -1357,7 +1357,7 @@ body::after {
     width: 100vw;
     z-index: 0;
     pointer-events: none;
-    background: url("../assets/img/cases-background.webp") center/cover no-repeat;
+    background: url("/Anna/assets/img/cases-background.jpg") center/cover no-repeat;
   }
   .cases__yandex::before {
     content: "";
