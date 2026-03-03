@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Портфолио</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1772531632972"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1772531632972">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1772531632972">
+	</head>
+	<body data-fls-fullpage="" data-fls-fullpage-bullets="">
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-fullpage-section="" data-fls-index="" class="index">
+					<div class="index__container">
+						<div class="index__navigation">
+							<div class="index__menu">
+								<a data-fls-scrollto=".tms" href="#tms" class="index__menu--link">Кейсы</a>
+								<a data-fls-scrollto=".experience" href="#experience" class="index__menu--link">Опыт</a>
+								<a data-fls-scrollto=".footer" href="#contact" class="index__menu--link">Контакты</a>
+							</div>
+							<a href="#" class="index__logo">Портфолио</a>
+						</div>
+						<div class="index__content">
+							<h1 class="index__title">Product Designer</h1>
+							<div class="index__badges">
+								<span class="index__badge index__badge--name">Я – Аня</span>
+								<span class="index__badge index__badge--avatar">
+									<img src="./assets/img/photo.svg" alt="Аня">
+								</span>
+								<span class="index__badge index__badge--experience">6+ лет в дизайне, 3.5 из них в продукте</span>
+							</div>
+							<p class="index__description">
+								Проектирую цифровые интерфейсы для Smart TV, web и mobile, которые выдерживают рост и реальные бизнес-ограничения
+							</p>
+							<a href="https://t.me/anna_zaickina" target="_blank" class="index__button">
+								<span class="index__button-icon --icon-telegram"></span>
+								Написать в ТГ
+							</a>
+						</div>
+						<div class="index__side-text">
+							Использую дизайн как способ упростить процессы и сделать сложные вещи понятными пользователю.
+						</div>
+					</div>
+				</div>
+				<section data-fls-fullpage-section="" data-fls-tms="" class="tms">
+					<div class="tms__container">
+						<div class="tms__content">
+							<div class="tms__smart" data-fls-popup-link="popup">
+								<div class="tms__smart-hover-area"></div>
+								<div class="tms__smart--title">Продуктовый дизайн Smart TV платформы</div>
+								<div class="tms__smart--img">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/tms-tv-600.webp" type="image/webp">
+										<img alt="ТВ" src="./assets/img/tms-tv.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="tms__tvip" data-fls-popup-link="popup-tms">
+								<div class="tms__tvip-hover-area"></div>
+								<div class="tms_tvip--title">Дизайн-система TVIP TMS</div>
+								<div class="tms__tvip--img">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/tms-player-600.webp" type="image/webp">
+										<img alt="Плеер" src="./assets/img/tms-player.webp">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-fullpage-section="" data-fls-cases="" class="cases">
+					<div class="cases__container">
+						<div class="cases__content">
+							<div class="cases__sber" data-fls-popup-link="popup-sber">
+								<div class="cases__sber-hover-area"></div>
+								<div class="cases__sber--title">Mobile app СберЗдоровье</div>
+								<div class="cases__sber--text">Исследовательский проект</div>
+								<div class="cases__sber--img">
+									<picture>
+										<img alt="Сбер" src="./assets/img/sber-phone.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="cases__yandex" data-fls-popup-link="popup-yandex">
+								<div class="cases__yandex-hover-area"></div>
+								<div class="cases_yandex--title">Онлайн-чаевые ЯНДЕКС</div>
+								<div class="cases_yandex--text">Исследовательский проект</div>
+								<div class="cases__yandex--img">
+									<video src="./assets/img/video.mp4" alt="Плеер" autoplay loop muted playsinline=""></video>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-fullpage-section="" data-fls-portfolio="" class="portfolio">
+					<div class="portfolio__container">
+						<div class="portfolio__content">
+							<div class="portfolio__location" data-fls-popup-link="popup-location">
+								<div class="portfolio__location-hover-area"></div>
+								<div class="portfolio__location--title">Сервис подбора локаций</div>
+								<div class="portfolio__location--text">Исследовательский проект</div>
+								<div class="portfolio__location--img">
+									<picture>
+										<img alt="Сбер" src="./assets/img/location.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="portfolio__news" data-fls-popup-link="popup-web">
+								<div class="portfolio__news-hover-area"></div>
+								<div class="portfolio_news--title">web-портал новостного сервиса</div>
+								<div class="portfolio__news--img">
+									<picture>
+										<img alt="Плеер" src="./assets/img/news.webp">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-fullpage-section="" data-fls-experience="" class="experience">
+					<div class="experience__container">
+						<div class="experience__content">
+							<h2 id="experience-title" class="experience__title">Опыт работы</h2>
+							<div class="experience__block">
+								<div class="experience__date">
+									<time datetime="2022">2022</time>
+									—
+									<span>по настоящее время</span>
+								</div>
+								<div class="experience__info">
+									<h3 class="experience__job">Product Designer</h3>
+									<p class="experience__company">TVIP LABS</p>
+									<ul class="experience__description">
+										<li>
+											Проектировала и оптимизировала ключевые пользовательские сценарии под управление с пультаЗапустила дизайн-систему для ускорения и масштабирования
+              разработки
+										</li>
+									</ul>
+								</div>
+								<div class="experience__results">
+									<div class="experience__results--percent">–32%</div>
+									<div class="experience__results--text">коэффициент оттока пользователей</div>
+								</div>
+								<div class="experience__speed">
+									<div class="experience__speed--percent">+18%</div>
+									<div class="experience__speed--text">Средний доход на пользователя</div>
+								</div>
+								<div class="experience__load">
+									<div class="experience__load--percent">–60%</div>
+									<div class="experience__load--text">Снижение нагрузки на поддержку</div>
+								</div>
+							</div>
+							<div class="experience__block">
+								<div class="experience__date experience__date--color">
+									<time datetime="2021">2021</time>
+									—
+									<time datetime="2022">2022</time>
+								</div>
+								<div class="experience__info">
+									<h3 class="experience__job">UX/UI Designer</h3>
+									<p class="experience__company">Beverly Group</p>
+									<p class="experience__description">
+										Проектировала пользовательские сценарии новостного веб-портала
+										<br>
+										Улучшила структуру, навигацию и адаптивные решения для web и mobile
+									</p>
+								</div>
+								<div class="experience__results">
+									<div class="experience__results--percent">≈15%</div>
+									<div class="experience__results--text">Повысилась посещаемость портала за счёт улучшения структуры и UX-сценариев</div>
+								</div>
+								<div class="experience__speed experience__opacity" aria-hidden="true" role="presentation"></div>
+								<div class="experience__load experience__opacity" aria-hidden="true" role="presentation"></div>
+							</div>
+							<div class="experience__block">
+								<div class="experience__date experience__date--color">
+									<time datetime="2020">2020</time>
+									—
+									<time datetime="2021">2021</time>
+								</div>
+								<div class="experience__info">
+									<h3 class="experience__job">UX/UI Designer</h3>
+									<p class="experience__company">iMask</p>
+									<p class="experience__description">
+										Работала над UI интернет-магазина. Проектировала и разрабатывала web-интерфейсы для B2B и B2C сегментов.
+									</p>
+								</div>
+								<div class="experience__results">
+									<div class="experience__results--percent">≈40%</div>
+									<div class="experience__results--text">
+										Интерфейс интернет-магазина повысил продажи и привлёк крупных корпоративных клиентов.
+									</div>
+								</div>
+								<div class="experience__speed experience__opacity" aria-hidden="true" role="presentation"></div>
+								<div class="experience__load experience__opacity" aria-hidden="true" role="presentation"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-fullpage-section="" data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__start">
+						<h2 class="footer__title">Готова к новым продуктовым задачам</h2>
+						<div class="footer__info">
+							<p class="footer__copyright">© 2026 Анна Заикина</p>
+							<div class="footer__social">
+								<a href="https://www.linkedin.com/in/anna-zaikina/" class="footer__social-link" target="_blank">LinkedIn</a>
+								<a href="https://www.behance.net/ann_kulikova" class="footer__social-link" target="_blank">Behance</a>
+								<a href="mailto:anna@zaikina-a.ru" class="footer__email">anna@zaikina-a.ru</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__end">
+						<a href="https://t.me/anna_zaickina" target="_blank" class="footer__cta --icon-telegram" data-fls-dynamic=".footer__start, 991, 1, .footer__start">Написать в ТГ</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="popup" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<button data-fls-popup-close="" type="button" class="popup__close">
+					<svg width="18" height="18" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+					</svg>
+				</button>
+				<div data-fls-popup-body="" class="popup__body">
+					<div data-fls-popup-content="" class="popup__text">
+						<!-- Контент -->
+						<div class="popup__content">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/TVIP-TMS-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/TVIP-TMS-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/TVIP-TMS.webp">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-tms" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<button data-fls-popup-close="" type="button" class="popup__close">
+					<svg width="18" height="18" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+					</svg>
+				</button>
+				<div data-fls-popup-body="" class="popup__body">
+					<div data-fls-popup-content="" class="popup__text">
+						<!-- Контент -->
+						<div class="popup__content">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/tms-popup-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/tms-popup-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/tms-popup.webp">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-sber" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<button data-fls-popup-close="" type="button" class="popup__close">
+					<svg width="18" height="18" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+					</svg>
+				</button>
+				<div data-fls-popup-body="" class="popup__body">
+					<div data-fls-popup-content="" class="popup__text">
+						<!-- Контент -->
+						<div class="popup__content">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/sber-popup-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/sber-popup-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/sber-popup.webp">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-yandex" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<button data-fls-popup-close="" type="button" class="popup__close">
+					<svg width="18" height="18" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+					</svg>
+				</button>
+				<div data-fls-popup-body="" class="popup__body">
+					<div data-fls-popup-content="" class="popup__text">
+						<!-- Контент -->
+						<div class="popup__content">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/yandex-popup-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/yandex-popup-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/yandex-popup.webp">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-location" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<button data-fls-popup-close="" type="button" class="popup__close">
+					<svg width="18" height="18" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+					</svg>
+				</button>
+				<div data-fls-popup-body="" class="popup__body">
+					<div data-fls-popup-content="" class="popup__text">
+						<!-- Контент -->
+						<div class="popup__content">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/wedream-popup-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/wedream-popup-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/wedream-popup.webp">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-web" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<button data-fls-popup-close="" type="button" class="popup__close">
+					<svg width="18" height="18" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+					</svg>
+				</button>
+				<div data-fls-popup-body="" class="popup__body">
+					<div data-fls-popup-content="" class="popup__text">
+						<!-- Контент -->
+						<div class="popup__content">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/clobecost-popup-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/clobecost-popup-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/clobecost-popup.webp">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
