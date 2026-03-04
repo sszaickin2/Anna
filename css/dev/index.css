@@ -158,7 +158,6 @@ section.tms._fullpage-next-protion {
 .index__content {
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
   max-width: 56.5rem;
   margin-left: auto;
   margin-top: auto;
@@ -174,6 +173,7 @@ section.tms._fullpage-next-protion {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-top: 3.5rem;
 }
 .index__badge--name {
   background-color: rgba(155, 138, 251, 0.6);
@@ -201,8 +201,10 @@ section.tms._fullpage-next-protion {
   font-style: normal;
   font-weight: 400;
   line-height: 2rem;
+  margin-top: 1rem;
 }
 .index__button {
+  margin-top: 3.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,7 +276,7 @@ section.tms._fullpage-next-protion {
   min-height: 0;
   display: flex;
   flex-direction: column;
-  padding: 2.5rem 1.75rem;
+  padding: 1.75rem 1.75rem;
 }
 .tms__smart-hover-area {
   position: fixed;
@@ -372,9 +374,9 @@ section.tms._fullpage-next-protion {
 }
 .--fullpage-init [data-fls-fullpage] {
   z-index: 1;
-  touch-action: none;
   position: relative;
   overflow: hidden;
+  touch-action: none;
 }
 
 .--fullpage-switching [data-fls-fullpage-section] {
@@ -382,51 +384,48 @@ section.tms._fullpage-next-protion {
 }
 .--fullpage-init [data-fls-fullpage-section] {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
 }
 .--fullpage-init .slider-mode [data-fls-fullpage-section], .--fullpage-init .cards-mode [data-fls-fullpage-section] {
-  transition: transform 0.7s cubic-bezier(0.55, 0.085, 0, 0.99) 0s;
+  transition: transform 0.7s cubic-bezier(0.55, 0.085, 0, 0.99);
 }
 .--fullpage-init .fade-mode [data-fls-fullpage-section] {
-  transition: opacity 0.5s ease-in-out 0s, visibility 0.5s ease-in-out 0s;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
 .--fullpage-bullets {
   position: fixed;
   top: 50%;
-  transform: translate(0, -50%);
   right: 0.625rem;
-  max-height: 100%;
+  transform: translate(0, -50%);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  z-index: 2;
+  max-height: 100%;
   gap: 0.625rem;
+  z-index: 2;
 }
 .--fullpage-bullets .--fullpage-bullet {
   cursor: pointer;
   width: 0.625rem;
   height: 0.625rem;
   flex: 0 0 0.625rem;
-  border-radius: 0.625rem;
-  background-color: #100c46;
-  box-shadow: 0rem 0rem 0.1875rem #6257fe, 0 0 1.875rem rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
   border: 0.0625rem solid #fff;
+  background-color: #100c46;
   opacity: 0.6;
-  transition: transform 0.4s ease-in-out 0s, opacity 0.4s ease-in-out 0s, background-color 0.4s ease-in-out 0s, box-shadow 0.4s ease-in-out 0s;
+  box-shadow: none;
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out, background-color 0.4s ease-in-out;
 }
 .--fullpage-bullets .--fullpage-bullet-active {
   opacity: 1;
   background-color: #9b8afb;
-  box-shadow: 0.3125rem 0.125rem 0.1875rem #100c46, 0 0 1.875rem rgba(255, 255, 255, 0.8);
+  box-shadow: none;
 }.footer {
   position: relative;
   width: 100%;
@@ -597,7 +596,7 @@ section.tms._fullpage-next-protion {
   min-height: 0;
   display: flex;
   flex-direction: column;
-  padding: 2.5rem 1.75rem;
+  padding: 1.75rem 1.75rem;
 }
 .portfolio__location-hover-area {
   position: fixed;
@@ -912,7 +911,7 @@ section.tms._fullpage-next-protion {
   min-height: 0;
   display: flex;
   flex-direction: column;
-  padding: 2.5rem 1.75rem;
+  padding: 1.75rem 1.75rem;
 }
 .cases__yandex--img {
   position: relative;
@@ -1628,8 +1627,8 @@ body::after {
   .--fullpage-bullets {
     top: auto;
     bottom: 1.25rem;
+    right: 50%;
     transform: translate(50%, 0);
     flex-direction: row;
-    right: 50%;
   }
 }
